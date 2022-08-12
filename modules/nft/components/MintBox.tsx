@@ -21,7 +21,7 @@ export function MintBox() {
     const web3 = new Web3(context.library.provider);
 
     const myContract = new web3.eth.Contract(abi as any, contractAddress);
-    var weiValue = web3.utils.toWei("5000000.0", "cndl");
+    var weiValue = web3.utils.toWei("5000000.0", "ether");
 
     const options = {
       from: context.account,
