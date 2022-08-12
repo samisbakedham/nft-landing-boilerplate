@@ -3,7 +3,7 @@ export function Footer() {
     <div>
       <div className="footer">
         <a
-          href="https://twitter.com/2"
+          href="https://twitter.com/candle_labs"
           target="_blank"
           rel="noopener noreferrer"
           title="Twitter account"
@@ -12,7 +12,7 @@ export function Footer() {
         </a>
 
         <a
-          href="https://instagram.com/"
+          href="https://instagram.com/candlelabs"
           target="_blank"
           rel="noopener noreferrer"
           title="instagram account"
@@ -22,14 +22,14 @@ export function Footer() {
 
         <a
           title="Join discord"
-          href="https://discord.gg/"
+          href="https://t.me/candleupdates"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Join our Discord
+          Join our telegram
         </a>
       </div>
-      <div style={{ padding: "30px", textAlign: "center" }}>2021 - Website</div>
+      <div style={{ padding: "30px", textAlign: "center" }}>2023 - Candle Labs, Inc.</div>
       <style jsx>
         {`
           .footer {

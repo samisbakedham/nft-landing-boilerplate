@@ -20,10 +20,10 @@ export function Layout({
 
       <Header />
       <Head>
-        <title>Website title</title>
+        <title>Candle </title>
         <meta
-          name="description"
-          content="Website description."
+          name="Candle CNDL"
+          content="Candle CNDL"
         />
         <link rel="icon" href="/favicon.png" />
       </Head>

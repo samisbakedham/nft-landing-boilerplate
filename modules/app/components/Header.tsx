@@ -9,7 +9,7 @@ export function Header() {
           <div className="left">
             <h1>
               <Link href="/">
-                <a>Title</a>
+                <a>Candle Reserve</a>
               </Link>
             </h1>
           </div>
@@ -38,11 +38,11 @@ export function Header() {
             <div className="link">
               <a
                 title="Join discord"
-                href="https://discord.gg/"
+                href="https://candlelabs.org/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Discord
+                Candle Website
               </a>
             </div>
 

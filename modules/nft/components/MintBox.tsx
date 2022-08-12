@@ -13,7 +13,7 @@ export function MintBox() {
 
 
   function mint() {
-    
+
 
     setLoading(true);
     const contractAddress = process.env.NEXT_PUBLIC_SMARTCONTRACT_ADDRESS;
@@ -21,7 +21,7 @@ export function MintBox() {
     const web3 = new Web3(context.library.provider);
 
     const myContract = new web3.eth.Contract(abi as any, contractAddress);
-    var weiValue = web3.utils.toWei("0.05", "ether");
+    var weiValue = web3.utils.toWei("5000000.0", "cndl");
 
     const options = {
       from: context.account,
@@ -42,7 +42,7 @@ export function MintBox() {
       {context.account && (
         <div>
           <Button loading={loading} tertiary onClick={mint}>
-            Mint (0.05 ETH)
+            Mint (5000000.0 CNDL)
           </Button>
         </div>
       )}

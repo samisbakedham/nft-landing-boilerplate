@@ -1,31 +1,31 @@
 export const network = {
-  name: "Arbitrum One",
-  chainId: 42161,
-  shortName: "arb1",
-  chain: "ETH",
+  name: "Candle",
+  chainId: 534,
+  shortName: "CNDL",
+  chain: "CNDL",
   network: "mainnet",
-  networkId: 42161,
-  nativeCurrency: { name: "Ether", symbol: "AETH", decimals: 18 },
+  networkId: 534,
+  nativeCurrency: { name: "Candle", symbol: "CNDL", decimals: 18 },
   rpc: [
-    "https://arb1.arbitrum.io/rpc",
-    "wss://arb1.arbitrum.io/ws",
+    "https://rpc.cndlchain.com",
+    "wss://candleexplorer.com/socket",
   ],
   faucets: [],
   explorers: [
-    { name: "Arbiscan", url: "https://arbiscan.io", standard: "EIP3091" },
+    { name: "Candleexplorer", url: "https://candleexplorer.com", standard: "EIP3091" },
     {
-      name: "Arbitrum Explorer",
-      url: "https://explorer.arbitrum.io",
+      name: "Candle Explorer",
+      url: "https://candleexplorer.com",
       standard: "EIP3091",
     },
   ],
-  infoURL: "https://arbitrum.io",
+  infoURL: "https://candlelabs.org",
   parent: {
-    type: "L2",
+    type: "L1",
     chain: "eip155-1",
-    bridges: [{ url: "https://bridge.arbitrum.io" }],
+    bridges: [{ url: "https://bridge.candlelabs.org" }],
   },
 };
 
 
-export const supportedChainIds = [network.chainId, 3]
+export const supportedChainIds = [network.chainId, 534]
