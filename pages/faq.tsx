@@ -26,16 +26,16 @@ export default function GalleryPage() {
       <p>
         If you have any other problem or question, please, refer to our{" "}
         <a
-          title="Join discord"
-          href="https://discord.gg/"
+          title="Join teleram"
+          href="https://t.me/candleupdates"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Discord
+          Telegram
         </a>
         .
       </p>
-      
+
     </Layout>
   );
 }
